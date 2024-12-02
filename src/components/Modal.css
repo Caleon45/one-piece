@@ -1,0 +1,60 @@
+.art-modal {
+    max-width: 450px; /* Ancho máximo del modal */
+    margin: auto; /* Centrar el modal */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: white; /* Color de fondo */
+}
+
+.art-modal-overlay {
+    display: flex; /* Usar flexbox para centrar el modal */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    position: fixed; /* Fijar el overlay */
+    top: 0; /* Alinear al top */
+    left: 0; /* Alinear al left */
+    right: 0; /* Alinear al right */
+    bottom: 0; /* Alinear al bottom */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el overlay */
+}
+
+.modal-textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.modal-button {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal-button-submit {
+    background-color: #4caf50; /* Color de fondo verde */
+}
+
+.modal-button-submit:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+}
+
+.modal-button-close {
+    background-color: #f44336; /* Color de fondo rojo */
+}
+
+.modal-button-close:hover {
+    background-color: #e53935; /* Rojo más oscuro al pasar el mouse */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinear los botones a la derecha */
+    gap: 5px; /* Espacio entre los botones */
+}

@@ -1,0 +1,73 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    margin-bottom: 20px; /* Espacio entre el logo y la descripción */
+}
+
+.description {
+    max-width: 600px; /* Limita el ancho de la descripción */
+    margin-bottom: 20px; /* Espacio entre la descripción y la tarjeta del video */
+}
+
+.video-card {
+    width: 900px; /* Cambia el ancho de la tarjeta del video aquí */
+    height: 500px; /* Cambia la altura de la tarjeta del video aquí */
+    margin-bottom: 100px; /* Espacio entre la tarjeta del video y los botones */
+    border: 10px solid #fff; /* Borde de la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para que el contenido no sobresalga */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    padding: 0; /* Elimina el espaciado interno para que el fondo sea homogéneo */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+}
+
+.video-card iframe {
+    width: 100%; /* Asegúrate de que el iframe ocupe todo el ancho de la tarjeta */
+    height: 100%; /* Asegúrate de que el iframe ocupe toda la altura de la tarjeta */
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white; /* Color del texto */
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.social-button.facebook {
+    background-color: #3b5998; /* Color de Facebook */
+}
+
+.social-button.twitter {
+    background-color: #1da1f2; /* Color de Twitter */
+}
+
+.social-button.instagram {
+    background-color: #e1306c; /* Color de Instagram */
+}
+
+.social-button:hover {
+    opacity: 0.8; /* Efecto hover */
+}
+
+.icon {
+    width: 20px; /* Ajusta el tamaño del icono */
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+}
